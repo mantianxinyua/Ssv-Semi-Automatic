@@ -1,0 +1,30 @@
+# ===== 密钥与授权（绝不提交，泄露=授权体系失效）=====
+private_key.pem
+public_key.pem
+license.lic
+
+# ===== 构建产物 =====
+dist/
+build/
+build_pkg_work/
+build_pkg_work2/
+dist_pyd/
+*.pyd
+*.spec.bak
+
+# ===== Python 缓存 =====
+__pycache__/
+*.pyc
+
+# ===== 第三方依赖与 OCR 引擎（大文件，不提交）=====
+libs/
+PaddleOCR-json/
+
+# ===== 运行时生成 =====
+.runtime
+gui_profiles.json
+*.log
+
+# ===== 其他 =====
+*.lnk
+.DS_Store
